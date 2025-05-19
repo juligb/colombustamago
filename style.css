@@ -19,14 +19,16 @@ body {
 }
 
 .link-stack a:hover {
-  color: #00025e;
+  color: #000000; /* #00025e */
   text-decoration: underline;
 }
 
 .text-background {
   background-color: #999999;
+  max-width: calc(100vw - 80px);
+  margin: 0 auto;
+  box-sizing: border-box;
   padding: 20px 40px;
   border-radius: 5px;
-  display: inline-block;
   box-shadow: 0 4px 16px rgba(0,0,0,0.4);
 }
