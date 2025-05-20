@@ -2,7 +2,7 @@ body {
   background-color: #dedede;  /* light grey */
   text-align: center;         /* center text horizontally */
   font-family: Arial, sans-serif; /* optional: nice readable font */
-  padding-top: 50px;         /* gives breathing room from the top */
+ /* padding-top: 50px;         /* gives breathing room from the top */
 }
 
 .link-stack a {
@@ -26,9 +26,18 @@ body {
 .text-background {
   background-color: #999999;
   max-width: calc(100vw - 80px);
-  margin: 0 auto;
+  height: 100vh;
+  margin: 40px auto 40px auto;
   box-sizing: border-box;
   padding: 20px 40px;
   border-radius: 5px;
   box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+
+.scroll-section {
+  height: 70vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border: 1px solid #ccc;
+  padding: 10px;
 }
